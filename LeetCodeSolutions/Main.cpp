@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Temporary.h"
+#include "LongestSubstringWithoutRepeatingCharacters.cpp"
 
 int main()
 {
-	Temporary temporary = Temporary();
-	std::cout << "temporary function is " << temporary.functionReturn5() << std::endl;
-	std::cout << "It works" << std::endl;
+	std::string s = "abcabcbb";
+	LongestSubstringWithoutRepeatingCharacters l = LongestSubstringWithoutRepeatingCharacters();
+	std::cout << l.lengthOfLongestSubstring(s) << std::endl;
 	std::cin.get();
 	return 0;
 }
