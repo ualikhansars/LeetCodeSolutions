@@ -1,11 +1,12 @@
 #include <iostream>
-#include "LongestSubstringWithoutRepeatingCharacters.cpp"
+#include "PalindromeNumber_9.cpp"
 
 int main()
 {
-	std::string s = "abcabcbb";
-	LongestSubstringWithoutRepeatingCharacters l = LongestSubstringWithoutRepeatingCharacters();
-	std::cout << l.lengthOfLongestSubstring(s) << std::endl;
+	int number = 191;
+	PalindromeNumber p = PalindromeNumber();
+	bool isPalindrome = p.isPalindrome(number);
+	std::cout << "isPalindrome " << isPalindrome << std::endl;
 	std::cin.get();
 	return 0;
 }
