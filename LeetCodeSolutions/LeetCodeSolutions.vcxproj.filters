@@ -24,6 +24,9 @@
     <ClCompile Include="PalindromeNumber_9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseInteger_7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PalindromeNumber_9.h">

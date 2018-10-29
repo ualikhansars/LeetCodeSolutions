@@ -1,12 +1,11 @@
 #include <iostream>
-#include "PalindromeNumber_9.cpp"
+#include "ReverseInteger_7.cpp"
 
 int main()
 {
-	int number = 191;
-	PalindromeNumber p = PalindromeNumber();
-	bool isPalindrome = p.isPalindrome(number);
-	std::cout << "isPalindrome " << isPalindrome << std::endl;
+	ReverseInteger reverseInteger = ReverseInteger();
+	int reversedInteger = reverseInteger.reverse(-321);
+	std::cout << "reverse " << reversedInteger << std::endl;
 	std::cin.get();
 	return 0;
 }
