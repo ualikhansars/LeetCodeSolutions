@@ -48,6 +48,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="ReverseInteger_7_Test.cpp" />
+    <ClCompile Include="ValidParentheses_20_Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCodeSolutions\LeetCodeSolutions.vcxproj">
